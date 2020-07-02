@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/9306d632f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<a href="">
+					<img src="images/logo.png">
+				</a>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li class="active"><a href="#">Products</a>
+						<ul class="submenu">
+							<li><a href="">Lorem ipsum dolor</a></li>
+							<li><a href="">sit amet</a></li>
+							<li><a href="">consectetur adipisicing</a></li>
+							<li><a href="">minima aspernatur</a></li>
+							<li><a href="">optio vitae</a></li>
+							<li><a href="">eligendi corrupti</a></li>
+							<li><a href="">sequi quisquam</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Payment</a></li>
+					<li><a href="#">Shipping</a></li>
+				</ul>
+				<div class="search">
+					<form action="">
+						<input type="text" placeholder="search" class="search-header">
+					</form>
+				</div>
+				<div class="cart">
+					<div class="product-count">4</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="slaider">
+			<i class="fas fa-angle-left"></i>
+			Slide #3
+			<i class="fas fa-angle-right"></i>		
+			<ul>
+				<li><i class="far fa-square"></i></li>
+				<li><i class="far fa-square"></i></li>
+				<li><i class="fas fa-square"></i></li>
+				<li><i class="far fa-square"></i></li>
+			</ul>				
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="filter">
+						<div class="left-block-filter">
+							<div class="left-block-header">
+								device type								
+							</div>
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter">
+								<label for="device-filter"></label>
+								<span class="device-filter-value">Laptop</span>
+							</div>
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-two">
+								<label for="device-filter-two"></label>
+								<span class="device-filter-value">Tablet</span>
+							</div>		
+						</div>
+						<div class="left-block-filter">
+							<div class="left-block-header">
+								color								
+							</div>
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-six">
+								<label for="device-filter-six"></label>
+								<span class="device-filter-value">Black</span>
+							</div>
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-seven">
+								<label for="device-filter-seven"></label>
+								<span class="device-filter-value">Red</span>
+							</div>
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-three">
+								<label for="device-filter-three"></label>
+								<span class="device-filter-value">Green</span>
+							</div>		
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-four">
+								<label for="device-filter-four"></label>
+								<span class="device-filter-value">Blue</span>
+							</div>		
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-five">
+								<label for="device-filter-five"></label>
+								<span class="device-filter-value">Orange</span>
+							</div>				
+						</div>
+						<div class="left-block-filter">
+							<div class="left-block-header">
+								ram								
+							</div>
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-eight">
+								<label for="device-filter-eight"></label>
+								<span class="device-filter-value">1GB</span>
+							</div>
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-nine">
+								<label for="device-filter-nine"></label>
+								<span class="device-filter-value">2GB</span>
+							</div>
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-ten">
+								<label for="device-filter-ten"></label>
+								<span class="device-filter-value">4GB</span>
+							</div>		
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-eleven">
+								<label for="device-filter-eleven"></label>
+								<span class="device-filter-value">6GB</span>
+							</div>		
+							<div class="filter-row">
+								<input type="checkbox" id="device-filter-twelve">
+								<label for="device-filter-twelve"></label>
+								<span class="device-filter-value">8GB</span>
+							</div>				
+						</div>
+						<div class="more-options">
+							Show more options ...
+						</div>
+						<div class="button-class">
+							<button class="info">
+								submit
+							</button>
+						</div>
+					</div>
+				</div>
+			<div class="col-md-9">
+				<div class="bread">
+					Home page > Products > <a href="">Laptops and Tablets</a>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="h1">Laptops and Tablets</div>
+					</div>
+					<div class="col-md-4">
+						<div class="sort">
+							<select>
+							  <option>sort by price</option>
+							  <option>sort by name</option>
+							  <option>sort by date</option>
+							  <option>sort by popularity</option>
+							</select>
+						</div>					
+					</div>					
+				</div>	
+				<div class="row">
+					<div class="col-md-4">
+						<div class="product-card">
+							<div class="picture1">
+								<div class="zoom">
+
+								</div>	
+								<div class="like">
+									
+								</div>							
+							</div>
+							<div class="title">
+								#1 Device Name
+							</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+							<div class="characteristic">
+								type:
+								<span class="value">
+									Laptop
+								</span>
+							</div>
+							<div class="characteristic">
+								screen size:
+								<span class="value">
+									7 inches
+								</span>
+							</div>	
+							<div class="characteristic">
+								ram:
+								<span class="value">
+									1 GB
+								</span>
+							</div>	
+							<div class="price">
+								$599<span class="sup"> 25</span>
+							</div>	
+							<div class="test">
+								<button class="info">
+								more details
+								</button>
+							</div>
+							<div class="test">
+								<button class="add">
+								add to cart
+								</button>
+							</div>				
+						</div>
+					</div>	
+					<div class="col-md-4">
+						<div class="product-card">
+							<div class="picture1">
+								<div class="zoom">
+
+								</div>	
+								<div class="like">
+									
+								</div>	
+							</div>
+							<div class="title">
+								#2 Device Name
+							</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+							<div class="characteristic">
+								type:
+								<span class="value">
+									Laptop
+								</span>
+							</div>
+							<div class="characteristic">
+								screen size:
+								<span class="value">
+									7 inches
+								</span>
+							</div>	
+							<div class="characteristic">
+								ram:
+								<span class="value">
+									1 GB
+								</span>
+							</div>	
+							<div class="price">
+								$1250<span class="sup"> 99</span>
+							</div>	
+							<div class="test">
+								<button class="info">
+								more details
+								</button>
+							</div>
+							<div class="test">
+								<button class="add">
+								add to cart
+								</button>
+							</div>				
+						</div>
+					</div>	
+					<div class="col-md-4">
+						<div class="product-card">
+							<div class="picture1">
+								<div class="zoom">
+
+								</div>	
+								<div class="like">
+									
+								</div>	
+							</div>
+							<div class="title">
+								#3 Device Name
+							</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+							<div class="characteristic">
+								type:
+								<span class="value">
+									Laptop
+								</span>
+							</div>
+							<div class="characteristic">
+								screen size:
+								<span class="value">
+									7 inches
+								</span>
+							</div>	
+							<div class="characteristic">
+								ram:
+								<span class="value">
+									1 GB
+								</span>
+							</div>	
+							<div class="price">
+								$399<span class="sup"> 50</span>
+							</div>	
+							<div class="test">
+								<button class="info">
+								more details
+								</button>
+							</div>
+							<div class="test">
+								<button class="add">
+								add to cart
+								</button>
+							</div>				
+						</div>
+					</div>	<div class="col-md-4">
+						<div class="product-card">
+							<div class="picture1"></div>
+							<div class="title">
+								#1 Device Name
+							</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+							<div class="characteristic">
+								type:
+								<span class="value">
+									Laptop
+								</span>
+							</div>
+							<div class="characteristic">
+								screen size:
+								<span class="value">
+									7 inches
+								</span>
+							</div>	
+							<div class="characteristic">
+								ram:
+								<span class="value">
+									1 GB
+								</span>
+							</div>	
+							<div class="price">
+								$599<span class="sup"> 25</span>
+							</div>	
+							<div class="test">
+								<button class="info">
+								more details
+								</button>
+							</div>
+							<div class="test">
+								<button class="add">
+								add to cart
+								</button>
+							</div>				
+						</div>
+					</div>	<div class="col-md-4">
+						<div class="product-card">
+							<div class="picture1"></div>
+							<div class="title">
+								#1 Device Name
+							</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+							<div class="characteristic">
+								type:
+								<span class="value">
+									Laptop
+								</span>
+							</div>
+							<div class="characteristic">
+								screen size:
+								<span class="value">
+									7 inches
+								</span>
+							</div>	
+							<div class="characteristic">
+								ram:
+								<span class="value">
+									1 GB
+								</span>
+							</div>	
+							<div class="price">
+								$599<span class="sup"> 25</span>
+							</div>	
+							<div class="test">
+								<button class="info">
+								more details
+								</button>
+							</div>
+							<div class="test">
+								<button class="add">
+								add to cart
+								</button>
+							</div>				
+						</div>
+					</div>	<div class="col-md-4">
+						<div class="product-card">
+							<div class="picture1"></div>
+							<div class="title">
+								#1 Device Name
+							</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+							<div class="characteristic">
+								type:
+								<span class="value">
+									Laptop
+								</span>
+							</div>
+							<div class="characteristic">
+								screen size:
+								<span class="value">
+									7 inches
+								</span>
+							</div>	
+							<div class="characteristic">
+								ram:
+								<span class="value">
+									1 GB
+								</span>
+							</div>	
+							<div class="price">
+								$599<span class="sup"> 25</span>
+							</div>	
+							<div class="test">
+								<button class="info">
+								more details
+								</button>
+							</div>
+							<div class="test">
+								<button class="add">
+								add to cart
+								</button>
+							</div>				
+						</div>
+					</div>	<div class="col-md-4">
+						<div class="product-card">
+							<div class="picture1"></div>
+							<div class="title">
+								#1 Device Name
+							</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+							<div class="characteristic">
+								type:
+								<span class="value">
+									Laptop
+								</span>
+							</div>
+							<div class="characteristic">
+								screen size:
+								<span class="value">
+									7 inches
+								</span>
+							</div>	
+							<div class="characteristic">
+								ram:
+								<span class="value">
+									1 GB
+								</span>
+							</div>	
+							<div class="price">
+								$599<span class="sup"> 25</span>
+							</div>	
+							<div class="test">
+								<button class="info">
+								more details
+								</button>
+							</div>
+							<div class="test">
+								<button class="add">
+								add to cart
+								</button>
+							</div>				
+						</div>
+					</div>	<div class="col-md-4">
+						<div class="product-card">
+							<div class="picture1"></div>
+							<div class="title">
+								#1 Device Name
+							</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+							<div class="characteristic">
+								type:
+								<span class="value">
+									Laptop
+								</span>
+							</div>
+							<div class="characteristic">
+								screen size:
+								<span class="value">
+									7 inches
+								</span>
+							</div>	
+							<div class="characteristic">
+								ram:
+								<span class="value">
+									1 GB
+								</span>
+							</div>	
+							<div class="price">
+								$599<span class="sup"> 25</span>
+							</div>	
+							<div class="test">
+								<button class="info">
+								more details
+								</button>
+							</div>
+							<div class="test">
+								<button class="add">
+								add to cart
+								</button>
+							</div>				
+						</div>
+					</div>	<div class="col-md-4">
+						<div class="product-card">
+							<div class="picture1"></div>
+							<div class="title">
+								#1 Device Name
+							</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</div>
+							<div class="characteristic">
+								type:
+								<span class="value">
+									Laptop
+								</span>
+							</div>
+							<div class="characteristic">
+								screen size:
+								<span class="value">
+									7 inches
+								</span>
+							</div>	
+							<div class="characteristic">
+								ram:
+								<span class="value">
+									1 GB
+								</span>
+							</div>	
+							<div class="price">
+								$599<span class="sup"> 25</span>
+							</div>	
+							<div class="test">
+								<button class="info">
+								more details
+								</button>
+							</div>
+							<div class="test">
+								<button class="add">
+								add to cart
+								</button>
+							</div>				
+						</div>
+					</div>	
+				</div>
+					
+				<!-- <div class="test">
+					<div class="col-md-12">
+						<div class="col-md-4">
+							<div class="product-card">
+								<div class="picture1"></div>
+								<div class="title">
+									#1 Device Name
+								</div>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</div>
+								<div class="characteristic">
+									type:
+									<span class="value">
+										Laptop
+									</span>
+								</div>
+								<div class="characteristic">
+									screen size:
+									<span class="value">
+										7 inches
+									</span>
+								</div>	
+								<div class="characteristic">
+									ram:
+									<span class="value">
+										1 GB
+									</span>
+								</div>	
+								<div class="price">
+									$599<span class="sup"> 25</span>
+								</div>	
+								<div class="test">
+									<button class="info">
+									more details
+									</button>
+								</div>
+								<div class="test">
+									<button class="add">
+									add to cart
+									</button>
+								</div>				
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="product-card">
+								<div class="picture1"></div>
+								<div class="title">
+									#2 Device Name
+								</div>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</div>
+								<div class="characteristic">
+									type:
+									<span class="value">
+										Laptop
+									</span>
+								</div>
+								<div class="characteristic">
+									screen size:
+									<span class="value">
+										7 inches
+									</span>
+								</div>	
+								<div class="characteristic">
+									ram:
+									<span class="value">
+										1 GB
+									</span>
+								</div>	
+								<div class="price">
+									$1250<span class="sup"> 99</span>
+								</div>	
+								<div class="test">
+									<button class="info">
+									more details
+									</button>
+								</div>
+								<div class="test">
+									<button class="add">
+									add to cart
+									</button>
+								</div>				
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="product-card">
+								<div class="picture1"></div>
+								<div class="title">
+									#3 Device Name
+								</div>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</div>
+								<div class="characteristic">
+									type:
+									<span class="value">
+										Laptop
+									</span>
+								</div>
+								<div class="characteristic">
+									screen size:
+									<span class="value">
+										7 inches
+									</span>
+								</div>	
+								<div class="characteristic">
+									ram:
+									<span class="value">
+										1 GB
+									</span>
+								</div>	
+								<div class="price">
+									$399<span class="sup"> 50</span>
+								</div>	
+								<div class="test">
+									<button class="info">
+									more details
+									</button>
+								</div>
+								<div class="test">
+									<button class="add">
+									add to cart
+									</button>
+								</div>				
+							</div>
+						</div>			
+						<div class="col-md-4">
+							<div class="product-card">
+								<div class="picture1"></div>
+								<div class="title">
+									#1 Device Name
+								</div>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</div>
+								<div class="characteristic">
+									type:
+									<span class="value">
+										Laptop
+									</span>
+								</div>
+								<div class="characteristic">
+									screen size:
+									<span class="value">
+										7 inches
+									</span>
+								</div>	
+								<div class="characteristic">
+									ram:
+									<span class="value">
+										1 GB
+									</span>
+								</div>	
+								<div class="price">
+									$599<span class="sup"> 25</span>
+								</div>	
+								<div class="test">
+									<button class="info">
+									more details
+									</button>
+								</div>
+								<div class="test">
+									<button class="add">
+									add to cart
+									</button>
+								</div>				
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="product-card">
+								<div class="picture1"></div>
+								<div class="title">
+									#2 Device Name
+								</div>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</div>
+								<div class="characteristic">
+									type:
+									<span class="value">
+										Laptop
+									</span>
+								</div>
+								<div class="characteristic">
+									screen size:
+									<span class="value">
+										7 inches
+									</span>
+								</div>	
+								<div class="characteristic">
+									ram:
+									<span class="value">
+										1 GB
+									</span>
+								</div>	
+								<div class="price">
+									$1250<span class="sup"> 99</span>
+								</div>	
+								<div class="test">
+									<button class="info">
+									more details
+									</button>
+								</div>
+								<div class="test">
+									<button class="add">
+									add to cart
+									</button>
+								</div>				
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="product-card">
+								<div class="picture1"></div>
+								<div class="title">
+									#3 Device Name
+								</div>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</div>
+								<div class="characteristic">
+									type:
+									<span class="value">
+										Laptop
+									</span>
+								</div>
+								<div class="characteristic">
+									screen size:
+									<span class="value">
+										7 inches
+									</span>
+								</div>	
+								<div class="characteristic">
+									ram:
+									<span class="value">
+										1 GB
+									</span>
+								</div>	
+								<div class="price">
+									$399<span class="sup"> 50</span>
+								</div>	
+								<div class="test">
+									<button class="info">
+									more details
+									</button>
+								</div>
+								<div class="test">
+									<button class="add">
+									add to cart
+									</button>
+								</div>				
+							</div>
+						</div>		
+						<div class="col-md-4">
+							<div class="product-card">
+								<div class="picture1"></div>
+								<div class="title">
+									#1 Device Name
+								</div>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</div>
+								<div class="characteristic">
+									type:
+									<span class="value">
+										Laptop
+									</span>
+								</div>
+								<div class="characteristic">
+									screen size:
+									<span class="value">
+										7 inches
+									</span>
+								</div>	
+								<div class="characteristic">
+									ram:
+									<span class="value">
+										1 GB
+									</span>
+								</div>	
+								<div class="price">
+									$599<span class="sup"> 25</span>
+								</div>	
+								<div class="test">
+									<button class="info">
+									more details
+									</button>
+								</div>
+								<div class="test">
+									<button class="add">
+									add to cart
+									</button>
+								</div>				
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="product-card">
+								<div class="picture1"></div>
+								<div class="title">
+									#2 Device Name
+								</div>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</div>
+								<div class="characteristic">
+									type:
+									<span class="value">
+										Laptop
+									</span>
+								</div>
+								<div class="characteristic">
+									screen size:
+									<span class="value">
+										7 inches
+									</span>
+								</div>	
+								<div class="characteristic">
+									ram:
+									<span class="value">
+										1 GB
+									</span>
+								</div>	
+								<div class="price">
+									$1250<span class="sup"> 99</span>
+								</div>	
+								<div class="test">
+									<button class="info">
+									more details
+									</button>
+								</div>
+								<div class="test">
+									<button class="add">
+									add to cart
+									</button>
+								</div>				
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="product-card">
+								<div class="picture1"></div>
+								<div class="title">
+									#3 Device Name
+								</div>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								</div>
+								<div class="characteristic">
+									type:
+									<span class="value">
+										Laptop
+									</span>
+								</div>
+								<div class="characteristic">
+									screen size:
+									<span class="value">
+										7 inches
+									</span>
+								</div>	
+								<div class="characteristic">
+									ram:
+									<span class="value">
+										1 GB
+									</span>
+								</div>	
+								<div class="price">
+									$399<span class="sup"> 50</span>
+								</div>	
+								<div class="test">
+									<button class="info">
+									more details
+									</button>
+								</div>
+								<div class="test">
+									<button class="add">
+									add to cart
+									</button>
+								</div>				
+							</div>
+					</div>
+				</div> -->
+				</div>
+			</div>		
+			</div>			
+		</div>
+	</main>
+	<footer class="footer">
+		© Copyright 2017
+	</footer>
+</body>
+</html>
